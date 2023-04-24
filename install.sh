@@ -1,3 +1,15 @@
+#- Minikube: 1.22.0
+
+#- Kustomize: 3.2.0
+
+#- Kubernetes: 1.21.0
+
+#- Kubeflow manifests: 1.6.0
+
+#- git (Latest version is fine)
+
+#- wget (This is a command line tool)
+
 curl -LO https://dl.k8s.io/release/v1.21.0/bin/linux/amd64/kubectl
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
